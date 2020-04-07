@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20465091-a231-4c09-bf93-6b472c313a54" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="dump_rdf.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/d2rq/dump_rdf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="116" column="49" lean-forward="false" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelD2RQ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/jena/ModelD2RQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/SystemLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="313" column="21" lean-forward="false" selection-start-line="313" selection-start-column="21" selection-end-line="313" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/map/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="167" column="23" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mapping.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/map/Mapping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TripleRelation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/algebra/TripleRelation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1958">
+              <caret line="100" column="31" lean-forward="false" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeRelation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/algebra/NodeRelation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="148" column="1" lean-forward="true" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Var.class" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa16588.34113/Var.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1142">
+              <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="21" />
+              <folding>
+                <marker date="1323846270000" expanded="true" signature="0:104" ph="/.../" />
+                <marker date="1323846270000" expanded="true" signature="151:489" ph="..." />
+                <marker date="1323846270000" expanded="false" signature="619:630" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="654:660" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="706:717" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="763:769" ph=" }" />
+                <marker date="1323846270000" expanded="true" signature="807:1054" ph="{...}" />
+                <marker date="1323846270000" expanded="false" signature="1090:1101" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="1110:1116" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="1157:1168" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="1187:1193" ph=" }" />
+                <marker date="1323846270000" expanded="true" signature="1253:1416" ph="{...}" />
+                <marker date="1323846270000" expanded="true" signature="1474:1560" ph="{...}" />
+                <marker date="1323846270000" expanded="false" signature="1593:1604" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="1619:1625" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="1659:1670" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="1688:1694" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="1722:1733" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="1754:1760" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="1786:1797" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="1809:1815" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="1847:1858" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="1880:1886" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="1913:1924" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="1948:1954" ph=" }" />
+                <marker date="1323846270000" expanded="true" signature="1996:2158" ph="{...}" />
+                <marker date="1323846270000" expanded="false" signature="2191:2202" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="2240:2246" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="2283:2294" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="2336:2342" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="2375:2386" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="2424:2430" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="2462:2473" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="2496:2502" ph=" }" />
+                <marker date="1323846270000" expanded="true" signature="2549:2710" ph="{...}" />
+                <marker date="1323846270000" expanded="true" signature="2755:3011" ph="{...}" />
+                <marker date="1323846270000" expanded="false" signature="3060:3071" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="3130:3136" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="3188:3199" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="3251:3257" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="3310:3321" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="3384:3390" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="3446:3457" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="3482:3488" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="3537:3548" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="3607:3613" ph=" }" />
+                <marker date="1323846270000" expanded="false" signature="3665:3676" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="3701:3707" ph=" }" />
+                <marker date="1323846270000" expanded="true" signature="3774:3998" ph="{...}" />
+                <marker date="1323846270000" expanded="false" signature="4044:4055" ph=" { " />
+                <marker date="1323846270000" expanded="false" signature="4074:4080" ph=" }" />
+                <marker date="1323846270000" expanded="true" signature="4144:4367" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node_Variable.class" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18488.489/Node_Variable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <marker date="1323845652000" expanded="true" signature="0:104" ph="/.../" />
+                <marker date="1323845652000" expanded="false" signature="284:295" ph=" { " />
+                <marker date="1323845652000" expanded="false" signature="307:313" ph=" }" />
+                <marker date="1323845652000" expanded="false" signature="352:363" ph=" { " />
+                <marker date="1323845652000" expanded="false" signature="393:399" ph=" }" />
+                <marker date="1323845652000" expanded="false" signature="428:439" ph=" { " />
+                <marker date="1323845652000" expanded="false" signature="496:502" ph=" }" />
+                <marker date="1323845652000" expanded="false" signature="546:557" ph=" { " />
+                <marker date="1323845652000" expanded="false" signature="602:608" ph=" }" />
+                <marker date="1323845652000" expanded="false" signature="641:652" ph=" { " />
+                <marker date="1323845652000" expanded="false" signature="664:670" ph=" }" />
+                <marker date="1323845652000" expanded="false" signature="700:711" ph=" { " />
+                <marker date="1323845652000" expanded="false" signature="740:746" ph=" }" />
+                <marker date="1323845652000" expanded="true" signature="788:978" ph="{...}" />
+                <marker date="1323845652000" expanded="false" signature="1026:1037" ph=" { " />
+                <marker date="1323845652000" expanded="false" signature="1067:1073" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>database</find>
+      <find>mapParser</find>
+      <find>parser</find>
+      <find>loadModelWorker</find>
+      <find>loadModel</find>
+      <find>connectedDB</find>
+      <find>compiled</find>
+      <find>USEcONN</find>
+      <find>getWriter</find>
+      <find>classMaps</find>
+      <find>databases</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/SystemLoader.java" />
+        <option value="$PROJECT_DIR$/src/d2rq/dump_rdf.java" />
+        <option value="$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/map/Mapping.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="61" />
+    <option name="y" value="18" />
+    <option name="width" value="1292" />
+    <option name="height" value="864" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="arq-2.9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d2rq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="fuberlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="fuberlin" type="462c0819:PsiDirectoryNode" />
+              <item name="wiwiss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="fuberlin" type="462c0819:PsiDirectoryNode" />
+              <item name="wiwiss" type="462c0819:PsiDirectoryNode" />
+              <item name="d2rq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="fuberlin" type="462c0819:PsiDirectoryNode" />
+              <item name="wiwiss" type="462c0819:PsiDirectoryNode" />
+              <item name="d2rq" type="462c0819:PsiDirectoryNode" />
+              <item name="algebra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="fuberlin" type="462c0819:PsiDirectoryNode" />
+              <item name="wiwiss" type="462c0819:PsiDirectoryNode" />
+              <item name="d2rq" type="462c0819:PsiDirectoryNode" />
+              <item name="jena" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="fuberlin" type="462c0819:PsiDirectoryNode" />
+              <item name="wiwiss" type="462c0819:PsiDirectoryNode" />
+              <item name="d2rq" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="fuberlin" type="462c0819:PsiDirectoryNode" />
+              <item name="wiwiss" type="462c0819:PsiDirectoryNode" />
+              <item name="d2rq" type="462c0819:PsiDirectoryNode" />
+              <item name="mapgen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="fuberlin" type="462c0819:PsiDirectoryNode" />
+              <item name="wiwiss" type="462c0819:PsiDirectoryNode" />
+              <item name="d2rq" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d2rq-0.8.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d2rq-0.8.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="fuberlin" type="462c0819:PsiDirectoryNode" />
+              <item name="wiwiss" type="462c0819:PsiDirectoryNode" />
+              <item name="d2rq" type="462c0819:PsiDirectoryNode" />
+              <item name="vocab" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20465091-a231-4c09-bf93-6b472c313a54" name="Default" comment="" />
+      <created>1585807564703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585807564703</updated>
+      <workItem from="1585807566293" duration="9573000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9573000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1490" height="880" extended-state="7" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24965034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/ResourceDescriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/Log4jHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/D2RQException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2278">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/ClassMapLister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/values/Column.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/sql/ResultRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/sql/ResultRowMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/parser/RelationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2190">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/vocab/D2RQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d2rq/generate_mapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d2rq/d2r_query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18488.27049/FileManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="202" column="42" lean-forward="false" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/parser/MapParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3190">
+          <caret line="214" column="28" lean-forward="false" selection-start-line="214" selection-start-column="28" selection-end-line="214" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/CommandLineTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/mapgen/MappingGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa16588.19520/Model.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3714">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa16588.26190/ModelCom.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="303" column="37" lean-forward="true" selection-start-line="303" selection-start-column="37" selection-end-line="303" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa16588.39446/RDFWriterFImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa16588.37328/RDFWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18488.489/Node_Variable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1323845652000" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1323845652000" expanded="false" signature="284:295" ph=" { " />
+            <marker date="1323845652000" expanded="false" signature="307:313" ph=" }" />
+            <marker date="1323845652000" expanded="false" signature="352:363" ph=" { " />
+            <marker date="1323845652000" expanded="false" signature="393:399" ph=" }" />
+            <marker date="1323845652000" expanded="false" signature="428:439" ph=" { " />
+            <marker date="1323845652000" expanded="false" signature="496:502" ph=" }" />
+            <marker date="1323845652000" expanded="false" signature="546:557" ph=" { " />
+            <marker date="1323845652000" expanded="false" signature="602:608" ph=" }" />
+            <marker date="1323845652000" expanded="false" signature="641:652" ph=" { " />
+            <marker date="1323845652000" expanded="false" signature="664:670" ph=" }" />
+            <marker date="1323845652000" expanded="false" signature="700:711" ph=" { " />
+            <marker date="1323845652000" expanded="false" signature="740:746" ph=" }" />
+            <marker date="1323845652000" expanded="true" signature="788:978" ph="{...}" />
+            <marker date="1323845652000" expanded="false" signature="1026:1037" ph=" { " />
+            <marker date="1323845652000" expanded="false" signature="1067:1073" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa16588.34113/Var.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1142">
+          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <marker date="1323846270000" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1323846270000" expanded="true" signature="151:489" ph="..." />
+            <marker date="1323846270000" expanded="false" signature="619:630" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="654:660" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="706:717" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="763:769" ph=" }" />
+            <marker date="1323846270000" expanded="true" signature="807:1054" ph="{...}" />
+            <marker date="1323846270000" expanded="false" signature="1090:1101" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="1110:1116" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="1157:1168" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="1187:1193" ph=" }" />
+            <marker date="1323846270000" expanded="true" signature="1253:1416" ph="{...}" />
+            <marker date="1323846270000" expanded="true" signature="1474:1560" ph="{...}" />
+            <marker date="1323846270000" expanded="false" signature="1593:1604" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="1619:1625" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="1659:1670" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="1688:1694" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="1722:1733" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="1754:1760" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="1786:1797" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="1809:1815" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="1847:1858" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="1880:1886" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="1913:1924" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="1948:1954" ph=" }" />
+            <marker date="1323846270000" expanded="true" signature="1996:2158" ph="{...}" />
+            <marker date="1323846270000" expanded="false" signature="2191:2202" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="2240:2246" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="2283:2294" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="2336:2342" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="2375:2386" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="2424:2430" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="2462:2473" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="2496:2502" ph=" }" />
+            <marker date="1323846270000" expanded="true" signature="2549:2710" ph="{...}" />
+            <marker date="1323846270000" expanded="true" signature="2755:3011" ph="{...}" />
+            <marker date="1323846270000" expanded="false" signature="3060:3071" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="3130:3136" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="3188:3199" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="3251:3257" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="3310:3321" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="3384:3390" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="3446:3457" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="3482:3488" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="3537:3548" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="3607:3613" ph=" }" />
+            <marker date="1323846270000" expanded="false" signature="3665:3676" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="3701:3707" ph=" }" />
+            <marker date="1323846270000" expanded="true" signature="3774:3998" ph="{...}" />
+            <marker date="1323846270000" expanded="false" signature="4044:4055" ph=" { " />
+            <marker date="1323846270000" expanded="false" signature="4074:4080" ph=" }" />
+            <marker date="1323846270000" expanded="true" signature="4144:4367" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/map/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="167" column="23" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/jena/ModelD2RQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/SystemLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="313" column="21" lean-forward="false" selection-start-line="313" selection-start-column="21" selection-end-line="313" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d2rq/dump_rdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="116" column="49" lean-forward="false" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/map/Mapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/algebra/TripleRelation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1958">
+          <caret line="100" column="31" lean-forward="false" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fuberlin/wiwiss/d2rq/algebra/NodeRelation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="148" column="1" lean-forward="true" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>JDK1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
