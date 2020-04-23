@@ -146,4 +146,18 @@ public class NodeRelation {
 		result.append(")");
 		return result.toString();
 	}
+
+	public String getSubject() {
+		StringBuffer result = new StringBuffer();
+		for (Var variable: variables()) {
+			StringBuffer result_temp = new StringBuffer();
+			if(result_temp.append(variable).toString().equals("?subject")){
+				result.append(nodeMaker(variable).toString());
+			}
+		}
+		String clazz = result.toString();
+		clazz = clazz.split("URI\\(Pattern\\(")[1];
+		clazz = clazz.split("/@@")[0];
+		return clazz;
+	}
 }

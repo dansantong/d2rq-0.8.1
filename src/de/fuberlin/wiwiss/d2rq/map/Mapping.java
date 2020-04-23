@@ -22,6 +22,7 @@ import com.hp.hpl.jena.shared.PrefixMapping;
 import com.hp.hpl.jena.shared.impl.PrefixMappingImpl;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
+import com.hp.hpl.jena.ontology.*;
 
 import de.fuberlin.wiwiss.d2rq.D2RQException;
 import de.fuberlin.wiwiss.d2rq.algebra.Attribute;
@@ -29,6 +30,7 @@ import de.fuberlin.wiwiss.d2rq.algebra.Relation;
 import de.fuberlin.wiwiss.d2rq.algebra.TripleRelation;
 import de.fuberlin.wiwiss.d2rq.sql.types.DataType;
 import de.fuberlin.wiwiss.d2rq.vocab.D2RQ;
+
 
 /**
  * A D2RQ mapping. Consists of {@link ClassMap}s,
@@ -211,6 +213,9 @@ public class Mapping {
 		String txtPath = "D:\\test_0402.txt";
 		FileOutputStream fileOutputStream = null;
 		File file = new File(txtPath);
+
+		final OntModel ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
+
 		try {
 			if(file.exists()){
 				//判断文件是否存在，如果不存在就新建一个txt
@@ -219,7 +224,13 @@ public class Mapping {
 			fileOutputStream = new FileOutputStream(file);
 			for(TripleRelation rel : compiledPropertyBridges){
 				fileOutputStream.write((rel.toString()+"\r\n").getBytes());
+
+				OntClass ontclass = ontModel.createClass(rel.getSubject());
+
 			}
+
+			ontModel.write(new FileOutputStream("D://dansan.owl"));
+
 			fileOutputStream.flush();
 			fileOutputStream.close();
 		} catch (Exception e) {
