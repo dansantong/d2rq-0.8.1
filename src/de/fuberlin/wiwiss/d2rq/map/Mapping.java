@@ -224,8 +224,30 @@ public class Mapping {
 			fileOutputStream = new FileOutputStream(file);
 			for(TripleRelation rel : compiledPropertyBridges){
 				fileOutputStream.write((rel.toString()+"\r\n").getBytes());
-
+				//向owl写入class信息
 				OntClass ontclass = ontModel.createClass(rel.getSubject());
+				//写入DataTypeProperty
+				if(rel.getDataProperty()!=null){
+					DatatypeProperty dp = ontModel.createDatatypeProperty(rel.getDataProperty());
+					Resource domain = ontModel.createResource(rel.getSubject());
+					dp.addDomain(domain);
+					//有有效的range
+					if(rel.getRange()!=null){
+						Resource range = ontModel.createResource(rel.getRange());
+						dp.addRange(range);
+					}
+				}
+				//写入ObjectProperty
+				if(rel.getObjectRelation()!=null){
+					ObjectProperty op = ontModel.createObjectProperty(rel.getObjectRelation());
+					Resource domain = ontModel.createResource(rel.getSubject());
+					op.addDomain(domain);
+					//有有效的range
+					if(rel.getRange()!=null){
+						Resource range = ontModel.createResource(rel.getRange());
+						op.addRange(range);
+					}
+				}
 
 			}
 

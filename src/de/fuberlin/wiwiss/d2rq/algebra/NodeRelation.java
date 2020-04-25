@@ -147,6 +147,7 @@ public class NodeRelation {
 		return result.toString();
 	}
 
+	//获取三元组的subject主语，对应为owl中的class
 	public String getSubject() {
 		StringBuffer result = new StringBuffer();
 		for (Var variable: variables()) {
@@ -156,8 +157,85 @@ public class NodeRelation {
 			}
 		}
 		String clazz = result.toString();
+		//格式化
 		clazz = clazz.split("URI\\(Pattern\\(")[1];
 		clazz = clazz.split("/@@")[0];
 		return clazz;
 	}
+
+	//获取三元组中的数据属性，在predicate部分，相应的其subject是属性的domain，其object是range
+	public String getDataProperty(){
+        StringBuffer result = new StringBuffer();
+        for (Var variable: variables()) {
+            StringBuffer result_temp = new StringBuffer();
+			result_temp.append(variable);
+            if(result_temp.toString().equals("?predicate")){
+                result.append(nodeMaker(variable).toString());
+            }
+            //如果object里包含URI字段，说明这是个对象属性，不是数据属性
+			if(result_temp.toString().equals("?object")){
+				if(nodeMaker(variable).toString().indexOf("URI")!=-1){
+					return null;
+				}
+			}
+        }
+        String dataProperty = result.toString();
+        //如果带有www.w3.org是我们认为的一些无用的数据属性，不处理直接扔掉了
+        if(dataProperty.indexOf("www.w3.org")==-1){
+        	//格式化
+            dataProperty = dataProperty.split("Fixed\\(<")[1];
+            dataProperty = dataProperty.split(">")[0];
+        }else{
+            dataProperty = null;
+        }
+        return dataProperty;
+    }
+
+    //获取三元组中的对象属性，其object中一定包含URI字段，如果没有说明不是对象属性
+    public String getObjectRelation(){
+        StringBuffer result = new StringBuffer();
+        for (Var variable: variables()) {
+            StringBuffer result_temp = new StringBuffer();
+            result_temp.append(variable);
+            if(result_temp.toString().equals("?object")){
+                if(nodeMaker(variable).toString().indexOf("URI")==-1){
+                    return null;
+                }
+            }
+            if(result_temp.toString().equals("?predicate")){
+                result.append(nodeMaker(variable).toString());
+            }
+        }
+        String objectRelation = result.toString();
+        //格式化
+        objectRelation = objectRelation.split("Fixed\\(<")[1];
+        objectRelation = objectRelation.split(">")[0];
+        return objectRelation;
+    }
+
+    //获取对象属性和数据属性的range，在Object部分
+    public String getRange(){
+        StringBuffer result = new StringBuffer();
+        for (Var variable: variables()) {
+            StringBuffer result_temp = new StringBuffer();
+            if(result_temp.append(variable).toString().equals("?object")) {
+                result.append(nodeMaker(variable).toString());
+            }
+        }
+        String range = result.toString();
+        if(range.indexOf("URI")!=-1){
+        	//对象属性的range，格式化
+            range = range.split("URI\\(Pattern\\(")[1];
+            range = range.split("/@@")[0];
+        }else{
+        	//数据属性的range，格式化，有些包含xsd:integer，是有用的range，有些不包含就没有有效信息了
+            range = range.split("Literal")[1];
+            range = range.split("\\(Column")[0];
+            if(range.equals("")) return null;
+            //直接向owl中写xsd:integer会报错，具体原因不知道，可能是因为owl文件开头已经定义了xsd?所以这里把xsd换成Owl开头定义的那一串uri了
+            range = range.split(":")[1];
+            range = "http://www.w3.org/2001/XMLSchema#"+range;
+        }
+        return range;
+    }
 }
