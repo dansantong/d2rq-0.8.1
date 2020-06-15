@@ -1,0 +1,199 @@
+@prefix map: <#> .
+@prefix db: <> .
+@prefix vocab: <vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix jdbc: <http://d2rq.org/terms/jdbc/> .
+
+map:database a d2rq:Database;
+	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
+	d2rq:jdbcDSN "jdbc:mysql:///fan";
+	d2rq:username "root";
+	d2rq:password "123456";
+	jdbc:autoReconnect "true";
+	jdbc:zeroDateTimeBehavior "convertToNull";
+	.
+
+# Table fan
+map:fan a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "fan/@@fan.time|urlify@@";
+	d2rq:class vocab:fan;
+	d2rq:classDefinitionLabel "fan";
+	.
+map:fan__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property rdfs:label;
+	d2rq:pattern "fan #@@fan.time@@";
+	.
+map:fan_time a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_time;
+	d2rq:propertyDefinitionLabel "fan time";
+	d2rq:column "fan.time";
+	.
+map:fan_wind_speed a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_wind_speed;
+	d2rq:propertyDefinitionLabel "fan wind_speed";
+	d2rq:column "fan.wind_speed";
+	.
+map:fan_generator_speed a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_generator_speed;
+	d2rq:propertyDefinitionLabel "fan generator_speed";
+	d2rq:column "fan.generator_speed";
+	.
+map:fan_power a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_power;
+	d2rq:propertyDefinitionLabel "fan power";
+	d2rq:column "fan.power";
+	.
+map:fan_wind_direction a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_wind_direction;
+	d2rq:propertyDefinitionLabel "fan wind_direction";
+	d2rq:column "fan.wind_direction";
+	.
+map:fan_wind_direction_mean a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_wind_direction_mean;
+	d2rq:propertyDefinitionLabel "fan wind_direction_mean";
+	d2rq:column "fan.wind_direction_mean";
+	.
+map:fan_yaw_position a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_yaw_position;
+	d2rq:propertyDefinitionLabel "fan yaw_position";
+	d2rq:column "fan.yaw_position";
+	.
+map:fan_yaw_speed a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_yaw_speed;
+	d2rq:propertyDefinitionLabel "fan yaw_speed";
+	d2rq:column "fan.yaw_speed";
+	.
+map:fan_pitch1_angle a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch1_angle;
+	d2rq:propertyDefinitionLabel "fan pitch1_angle";
+	d2rq:column "fan.pitch1_angle";
+	.
+map:fan_pitch2_angle a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch2_angle;
+	d2rq:propertyDefinitionLabel "fan pitch2_angle";
+	d2rq:column "fan.pitch2_angle";
+	.
+map:fan_pitch3_angle a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch3_angle;
+	d2rq:propertyDefinitionLabel "fan pitch3_angle";
+	d2rq:column "fan.pitch3_angle";
+	.
+map:fan_pitch1_speed a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch1_speed;
+	d2rq:propertyDefinitionLabel "fan pitch1_speed";
+	d2rq:column "fan.pitch1_speed";
+	.
+map:fan_pitch2_speed a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch2_speed;
+	d2rq:propertyDefinitionLabel "fan pitch2_speed";
+	d2rq:column "fan.pitch2_speed";
+	.
+map:fan_pitch3_speed a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch3_speed;
+	d2rq:propertyDefinitionLabel "fan pitch3_speed";
+	d2rq:column "fan.pitch3_speed";
+	.
+map:fan_pitch1_moto_tmp a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch1_moto_tmp;
+	d2rq:propertyDefinitionLabel "fan pitch1_moto_tmp";
+	d2rq:column "fan.pitch1_moto_tmp";
+	.
+map:fan_pitch2_moto_tmp a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch2_moto_tmp;
+	d2rq:propertyDefinitionLabel "fan pitch2_moto_tmp";
+	d2rq:column "fan.pitch2_moto_tmp";
+	.
+map:fan_pitch3_moto_tmp a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch3_moto_tmp;
+	d2rq:propertyDefinitionLabel "fan pitch3_moto_tmp";
+	d2rq:column "fan.pitch3_moto_tmp";
+	.
+map:fan_acc_x a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_acc_x;
+	d2rq:propertyDefinitionLabel "fan acc_x";
+	d2rq:column "fan.acc_x";
+	.
+map:fan_acc_y a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_acc_y;
+	d2rq:propertyDefinitionLabel "fan acc_y";
+	d2rq:column "fan.acc_y";
+	.
+map:fan_environment_tmp a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_environment_tmp;
+	d2rq:propertyDefinitionLabel "fan environment_tmp";
+	d2rq:column "fan.environment_tmp";
+	.
+map:fan_int_tmp a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_int_tmp;
+	d2rq:propertyDefinitionLabel "fan int_tmp";
+	d2rq:column "fan.int_tmp";
+	.
+map:fan_pitch1_ng5_tmp a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch1_ng5_tmp;
+	d2rq:propertyDefinitionLabel "fan pitch1_ng5_tmp";
+	d2rq:column "fan.pitch1_ng5_tmp";
+	.
+map:fan_pitch2_ng5_tmp a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch2_ng5_tmp;
+	d2rq:propertyDefinitionLabel "fan pitch2_ng5_tmp";
+	d2rq:column "fan.pitch2_ng5_tmp";
+	.
+map:fan_pitch3_ng5_tmp a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch3_ng5_tmp;
+	d2rq:propertyDefinitionLabel "fan pitch3_ng5_tmp";
+	d2rq:column "fan.pitch3_ng5_tmp";
+	.
+map:fan_pitch1_ng5_DC a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch1_ng5_DC;
+	d2rq:propertyDefinitionLabel "fan pitch1_ng5_DC";
+	d2rq:column "fan.pitch1_ng5_DC";
+	.
+map:fan_pitch2_ng5_DC a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch2_ng5_DC;
+	d2rq:propertyDefinitionLabel "fan pitch2_ng5_DC";
+	d2rq:column "fan.pitch2_ng5_DC";
+	.
+map:fan_pitch3_ng5_DC a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_pitch3_ng5_DC;
+	d2rq:propertyDefinitionLabel "fan pitch3_ng5_DC";
+	d2rq:column "fan.pitch3_ng5_DC";
+	.
+map:fan_group a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:fan;
+	d2rq:property vocab:fan_group;
+	d2rq:propertyDefinitionLabel "fan group";
+	d2rq:column "fan.group";
+	.
+
